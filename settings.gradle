@@ -1,1 +1,1 @@
-include ':app', ':recyclerviewdemo', ':rxjava', ':retrofit', ':bottomnavigationbar'
+include ':app', ':recyclerviewdemo', ':rxjava', ':retrofit', ':bottomnavigationbar', ':objectanimator', ':kotlinandroid'
