@@ -35,5 +35,9 @@ public class ObjectAnimationActivity extends AppCompatActivity {
         });
     }
 
+    private void objPro() {
+
+    }
+
 
 }
