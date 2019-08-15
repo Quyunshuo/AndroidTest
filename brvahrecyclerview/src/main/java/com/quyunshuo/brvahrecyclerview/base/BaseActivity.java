@@ -15,8 +15,6 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 
 import com.quyunshuo.brvahrecyclerview.R;
 
-import java.util.logging.Logger;
-
 /**
  * @Author: MiYan
  * @Time: 2019/8/15 17:33
