@@ -7,7 +7,7 @@ import android.view.View;
 import com.chad.library.adapter.base.animation.BaseAnimation;
 
 /**
- * https://github.com/CymChad/BaseRecyclerViewAdapterHelper
+ * Customize Animation
  */
 public class CustomAnimation implements BaseAnimation {
 
