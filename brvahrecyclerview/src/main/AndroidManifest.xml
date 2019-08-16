@@ -11,7 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".DiffUtilActivity"></activity>
+        <activity android:name=".MultipleItemRvAdapterUseActivity"></activity>
+        <activity android:name=".DiffUtilActivity" />
         <activity android:name=".SectionMultipleItemUseActivity" />
         <activity android:name=".UpFetchUseActivity" />
         <activity android:name=".DataBindingUseActivity" />

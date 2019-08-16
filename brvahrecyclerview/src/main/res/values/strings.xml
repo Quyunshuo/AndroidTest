@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">BRVAHRecyclerView</string>
+    <string name="basemultiltem">BaseMultipleItem</string>
 </resources>

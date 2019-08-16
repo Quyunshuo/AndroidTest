@@ -1,7 +1,5 @@
 package com.quyunshuo.brvahrecyclerview;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -26,7 +24,13 @@ public class ChooseMultipleItemUseTypeActivity extends BaseActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(ChooseMultipleItemUseTypeActivity.this,MultipleItemUseActivity.class));
+                startActivity(new Intent(ChooseMultipleItemUseTypeActivity.this, MultipleItemUseActivity.class));
+            }
+        });
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(ChooseMultipleItemUseTypeActivity.this, MultipleItemRvAdapterUseActivity.class));
             }
         });
     }
