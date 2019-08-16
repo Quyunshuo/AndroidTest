@@ -9,14 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RewardedVideoAdActivity">
+        <activity android:name=".NativeAdvertisingActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".InterstitialAdActivity"></activity>
+        <activity android:name=".RewardedVideoAdActivity">
+
+        </activity>
+        <activity android:name=".InterstitialAdActivity" />
         <activity android:name=".MainActivity" />
 
         <meta-data
