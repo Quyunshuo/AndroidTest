@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Ads</string>
+    <string name="content">广告需要一个加载的时间，点击按钮首先会判断广告是否加载完成\n如果加载完成将会Show广告否则进行Error Toast。</string>
+
 </resources>
