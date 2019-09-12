@@ -13,7 +13,7 @@ import com.quyunshuo.greendaodemo.greendao.DaoSession;
  */
 public class GreenDAOApplication extends Application {
 
-    private DaoSession daoSession;
+    private static DaoSession daoSession;
 
     @Override
     public void onCreate() {
@@ -26,5 +26,9 @@ public class GreenDAOApplication extends Application {
         SQLiteDatabase db = helper.getWritableDatabase();
         DaoMaster daoMaster = new DaoMaster(db);
         daoSession = daoMaster.newSession();
+    }
+
+    public static DaoSession getDaoSession() {
+        return daoSession;
     }
 }
