@@ -1,4 +1,4 @@
-package com.quyunshuo.greendao;
+package com.quyunshuo.greendaodemo;
 
 import org.junit.Test;
 
