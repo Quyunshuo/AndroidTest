@@ -1,7 +1,8 @@
-package com.quyunshuo.eventbus
+package com.quyunshuo.eventbus.eventbus1
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.quyunshuo.eventbus.R
 import kotlinx.android.synthetic.main.activity_second.*
 import org.greenrobot.eventbus.EventBus
 

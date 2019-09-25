@@ -1,4 +1,4 @@
-package com.quyunshuo.eventbus;
+package com.quyunshuo.eventbus.eventbus1;
 
 /**
  * @Author: MiYan

@@ -1,9 +1,9 @@
-package com.quyunshuo.eventbus
+package com.quyunshuo.eventbus.eventbus1
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
+import com.quyunshuo.eventbus.R
 import kotlinx.android.synthetic.main.activity_main.*
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe

@@ -17,10 +17,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PackageEventBusTwoActivity" />
-        <activity android:name=".PackageEventBusOneActivity"></activity>
-        <activity android:name=".SecondActivity" />
-        <activity android:name=".MainActivity" />
+        <activity android:name=".eventbus1.PackageEventBusTwoActivity" />
+        <activity android:name=".eventbus1.PackageEventBusOneActivity"></activity>
+        <activity android:name=".eventbus1.SecondActivity" />
+        <activity android:name=".eventbus1.MainActivity" />
     </application>
 
 </manifest>

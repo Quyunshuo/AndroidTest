@@ -1,11 +1,9 @@
-package com.quyunshuo.eventbus
+package com.quyunshuo.eventbus.eventbus1
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.quyunshuo.eventbus.R
 import kotlinx.android.synthetic.main.activity_package_event_bus_one.*
-import org.greenrobot.eventbus.Subscribe
-import org.greenrobot.eventbus.ThreadMode
 
 /**
  * 封装EventBus写法
