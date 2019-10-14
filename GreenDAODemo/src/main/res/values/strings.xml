@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GreenDAODemo</string>
+    <string name="hello_greendao">Hello GreenDAO!</string>
+</resources>
