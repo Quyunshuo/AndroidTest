@@ -31,6 +31,6 @@ public class MainActivity extends AppCompatActivity {
 //        root.addView(new MyViewTwo(this));
 //        root.addView(new MyViewThree(this));
 //        root.addView(new MyViewFour(this));
-        root.addView(new MyRegionView(this));
+//        root.addView(new MyRegionView(this));
     }
 }
