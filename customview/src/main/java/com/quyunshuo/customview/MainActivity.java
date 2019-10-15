@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.FrameLayout;
 
+import com.quyunshuo.customview.view.MyRegionView;
 import com.quyunshuo.customview.view.MyView;
 import com.quyunshuo.customview.view.MyViewFour;
 import com.quyunshuo.customview.view.MyViewThree;
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
 //        root.addView(new MyView(this));
 //        root.addView(new MyViewTwo(this));
 //        root.addView(new MyViewThree(this));
-        root.addView(new MyViewFour(this));
+//        root.addView(new MyViewFour(this));
+        root.addView(new MyRegionView(this));
     }
 }
