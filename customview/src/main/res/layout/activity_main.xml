@@ -11,15 +11,19 @@
     <!--        android:layout_width="match_parent"-->
     <!--        android:layout_height="match_parent" />-->
 
-    <Button
-        android:id="@+id/reset"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="reset" />
+    <!--    <Button-->
+    <!--        android:id="@+id/reset"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="reset" />-->
 
-    <com.quyunshuo.customview.view.MyViewSix
-        android:id="@+id/my_view"
+    <!--    <com.quyunshuo.customview.view.MyViewSix-->
+    <!--        android:id="@+id/my_view"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <com.quyunshuo.customview.view.RippleView
+        android:id="@+id/right_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-
 </FrameLayout>
