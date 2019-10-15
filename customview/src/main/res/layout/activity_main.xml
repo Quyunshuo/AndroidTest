@@ -7,7 +7,19 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.quyunshuo.customview.view.MyViewFive
+    <!--    <com.quyunshuo.customview.view.MyViewFive-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="reset" />
+
+    <com.quyunshuo.customview.view.MyViewSix
+        android:id="@+id/my_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
 </FrameLayout>
