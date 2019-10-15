@@ -29,6 +29,8 @@ public class MyViewFive extends View {
         Paint paint = new Paint();
         paint.setStyle(Paint.Style.STROKE);
         paint.setColor(Color.GREEN);
+        paint.setAntiAlias(true);
+        paint.setStrokeWidth(6);
 
         Path path = new Path();
         path.moveTo(100, 300);      //起点
