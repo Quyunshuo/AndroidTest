@@ -4,7 +4,10 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.graphics.Path;
 import android.view.View;
+
+import java.lang.reflect.MalformedParameterizedTypeException;
 
 /**
  * @Author: MiYan
@@ -24,7 +27,8 @@ public class MyViewFour extends View {
         super.onDraw(canvas);
 //        differenceInDrawingStyle(canvas);
 //        textStyleDifference(canvas);
-        textHorizontalStretching(canvas);
+//        textHorizontalStretching(canvas);
+        textOnPath(canvas);
     }
 
     /**
@@ -117,4 +121,43 @@ public class MyViewFour extends View {
         mPaint.setTextScaleX(2);//重新设置拉伸效果
         canvas.drawText("AndroidTextProject", 10, 300, mPaint);
     }
+
+    /**
+     * 沿路径绘制
+     */
+
+    private void textOnPath(Canvas canvas) {
+        mPaint.setColor(Color.RED);
+        mPaint.setStrokeWidth(5);
+        mPaint.setAntiAlias(true);
+        mPaint.setTextSize(45);
+        mPaint.setStyle(Paint.Style.STROKE);
+
+        String string = "风萧萧兮易水寒，壮士一去兮不复还";
+
+        //先创建两个相同的圆形路径，并画出两个路径原图
+        Path circlePath = new Path();
+        circlePath.addCircle(220, 200, 180, Path.Direction.CCW); //逆向绘制
+        canvas.drawPath(circlePath, mPaint);
+
+        Path circlePath2 = new Path();
+        circlePath2.addCircle(750, 200, 180, Path.Direction.CCW);
+        canvas.drawPath(circlePath2, mPaint);
+
+        mPaint.setColor(Color.GREEN);
+
+        //hOffset、vOffset参数值全部设为0，看原始状态是怎样的
+        canvas.drawTextOnPath(string, circlePath, 0, 0, mPaint);
+        //第二个路径，改变hOffset、vOffset参数值
+        canvas.drawTextOnPath(string, circlePath2, 80, 30, mPaint);
+    }
+
+    /**
+     * 字体样式设置
+     */
+    private void textTypeface(Canvas canvas) {
+
+
+    }
+
 }
