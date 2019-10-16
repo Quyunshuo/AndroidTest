@@ -22,8 +22,8 @@
     <!--        android:layout_width="match_parent"-->
     <!--        android:layout_height="match_parent" />-->
 
-    <com.quyunshuo.customview.view.RippleView
-        android:id="@+id/right_view"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+<!--    <com.quyunshuo.customview.view.RippleView-->
+<!--        android:id="@+id/right_view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent" />-->
 </FrameLayout>

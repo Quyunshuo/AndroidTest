@@ -13,6 +13,7 @@ import com.quyunshuo.customview.view.MyViewFour;
 import com.quyunshuo.customview.view.MyViewSix;
 import com.quyunshuo.customview.view.MyViewThree;
 import com.quyunshuo.customview.view.MyViewTwo;
+import com.quyunshuo.customview.view.RedPointView;
 import com.quyunshuo.customview.view.RippleView;
 
 public class MainActivity extends AppCompatActivity {
@@ -28,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initView() {
-//        root = findViewById(R.id.frame_layout);
+        root = findViewById(R.id.frame_layout);
 //        myView = findViewById(R.id.my_view);
 //        findViewById(R.id.reset).setOnClickListener(new OnClickListener() {
 //            @Override
@@ -36,8 +37,8 @@ public class MainActivity extends AppCompatActivity {
 //                myView.reset();
 //            }
 //        });
-        final RippleView myView = findViewById(R.id.right_view);
-        myView.startAnim();
+//        final RippleView myView = findViewById(R.id.right_view);
+//        myView.startAnim();
     }
 
     private void initDraw() {
@@ -46,5 +47,6 @@ public class MainActivity extends AppCompatActivity {
 //        root.addView(new MyViewThree(this));
 //        root.addView(new MyViewFour(this));
 //        root.addView(new MyRegionView(this));
+        root.addView(new RedPointView(this));
     }
 }
