@@ -81,4 +81,4 @@ lint/outputs/
 lint/tmp/
 # lint/reports/
 
-app/1.txt
+app\1.txt
