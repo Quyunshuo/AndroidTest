@@ -12,14 +12,14 @@ import java.util.Random;
  */
 public class MvpModel {
     //模拟账号数据
-    public void getAccountData(String accountName, MCallback calback) {
+    public void getAccountData(String accountName, MCallback callback) {
         Random random = new Random();
         boolean isSuccess = random.nextBoolean();
         if (isSuccess) {
             Account account = new Account(accountName, 100);
-            calback.onSuccess(account);
+            callback.onSuccess(account);
         } else {
-            calback.onFailed();
+            callback.onFailed();
         }
     }
 }

@@ -12,6 +12,9 @@ import com.quyunshuo.mvp2.bean.Account;
 import com.quyunshuo.mvp2.mvp.IView;
 import com.quyunshuo.mvp2.mvp.MvpPresenter;
 
+/**
+ * View层 需要持有Presenter层的实例 通知P层进行一些操作 不需要持有Model层的实例 View层与Model层要隔离
+ */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener, IView {
 
     private EditText mEditText;
@@ -37,6 +40,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
+        //这一步需要获取数据 所以通知P层做具体操作
         mPresenter.getData(getUserInput());
     }
 
