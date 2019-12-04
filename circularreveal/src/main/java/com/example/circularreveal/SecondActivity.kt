@@ -9,7 +9,7 @@ import android.view.animation.LinearInterpolator
 import androidx.core.animation.addListener
 import kotlinx.android.synthetic.main.activity_second.*
 
-class SecondActivity : AppCompatActivity() {
+class SecondActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -36,8 +36,8 @@ class SecondActivity : AppCompatActivity() {
             // 关键代码，构建一个揭露动画对象，注意圆形揭露动画的圆心以及开始半径和结束半径是如何计算出来的
             val animReveal = ViewAnimationUtils.createCircularReveal(
                     viewBg,
-                    location[0] + view.width/2,
-                    location[1] + view.height/2,
+                    location[0] + view.width / 2,
+                    location[1] + view.height / 2,
                     startRadius,
                     endRadius)
             //构建好了揭露动画对象，开始设置动画的一些属性和相关监听

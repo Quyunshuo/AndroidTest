@@ -5,7 +5,7 @@ import android.graphics.Color
 import android.view.View
 
 //状态栏沉浸
-fun Activity.statusBarSteep(){
+fun Activity.statusBarSteep() {
     val version = android.os.Build.VERSION.SDK_INT
     val decorView = window.decorView
     @SuppressWarnings // 忽略警告
@@ -23,7 +23,7 @@ fun Activity.statusBarSteep(){
 }
 
 //Activity 的扩展属性，状态栏高度
-val Activity.statusBarHeight:Int
+val Activity.statusBarHeight: Int
     get() {
         var result = 0
         val resourceId = resources.getIdentifier("status_bar_height", "dimen", "android")
