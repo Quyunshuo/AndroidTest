@@ -1,3 +1,3 @@
-include ':app', ':recyclerviewdemo', ':rxjava', ':retrofit', ':bottomnavigationbar', ':objectanimator', ':kotlinandroid', ':service', ':dialogfragment', ':eventbus', ':animation', ':ads', ':u', ':brvahrecyclerview', ':sharedpreferences', ':packagemanager', ':okhttp', ':mvpdemo', ':motionlayout', ':mvp', ':lottie', ':GreenDAODemo', ':customview', ':mvp2', ':mvvm'
+include ':app', ':recyclerviewdemo', ':rxjava', ':retrofit', ':bottomnavigationbar', ':objectanimator', ':kotlinandroid', ':service', ':dialogfragment', ':eventbus', ':animation', ':ads', ':u', ':brvahrecyclerview', ':sharedpreferences', ':packagemanager', ':okhttp', ':mvpdemo', ':motionlayout', ':mvp', ':lottie', ':GreenDAODemo', ':customview', ':mvp2', ':mvvm', ':WorkManager'
 include ':kotlin'
 include ':circularreveal'
