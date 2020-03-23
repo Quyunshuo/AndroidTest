@@ -2,3 +2,4 @@ include ':app', ':recyclerviewdemo', ':rxjava', ':retrofit', ':bottomnavigationb
 include ':kotlin'
 include ':circularreveal'
 include ':ViewBinding'
+include ':ARouter'
