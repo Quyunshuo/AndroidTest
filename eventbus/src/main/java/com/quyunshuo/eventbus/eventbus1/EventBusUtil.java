@@ -1,7 +1,5 @@
 package com.quyunshuo.eventbus.eventbus1;
 
-
-
 import org.greenrobot.eventbus.EventBus;
 
 /**
