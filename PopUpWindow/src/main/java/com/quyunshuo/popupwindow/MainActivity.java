@@ -90,12 +90,7 @@ public class MainActivity extends AppCompatActivity {
      * 测量view宽高
      */
     private static int makeDropDownMeasureSpec(int measureSpec) {
-        int mode;
-        if (measureSpec == ViewGroup.LayoutParams.WRAP_CONTENT) {
-            mode = View.MeasureSpec.UNSPECIFIED;
-        } else {
-            mode = View.MeasureSpec.EXACTLY;
-        }
+        int mode = measureSpec == ViewGroup.LayoutParams.WRAP_CONTENT ? View.MeasureSpec.UNSPECIFIED : View.MeasureSpec.EXACTLY;
         return View.MeasureSpec.makeMeasureSpec(View.MeasureSpec.getSize(measureSpec), mode);
     }
 }
