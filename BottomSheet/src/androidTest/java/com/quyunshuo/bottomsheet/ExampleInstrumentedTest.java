@@ -1,4 +1,4 @@
-package com.quyunshuo.customview;
+package com.quyunshuo.bottomsheet;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.quyunshuo.customview", appContext.getPackageName());
+        assertEquals("com.quyunshuo.bottomsheet", appContext.getPackageName());
     }
 }
