@@ -1,3 +1,4 @@
+include ':Gson'
 include ':ActivityAnimation'
 include ':HenCodeView'
 include ':app', ':RecyclerViewDemo', ':RxJava', ':Retrofit', ':BottomNavigationBar', ':ObjectAnimator', ':KotlinAndroid', ':Service', ':DialogFragment', ':EventBus', ':Animation', ':ADs', ':UM', ':BRVAHRecyclerView', ':SharedPreferences', ':PackageManager', ':OkHttp', ':MVPDemo', ':MotionLayout', ':MVP', ':Lottie', ':GreenDAODemo', ':CustomView', ':MVP2', ':MVVM', ':WorkManager', ':LeakCanary', ':LogUtil', ':Thread'
